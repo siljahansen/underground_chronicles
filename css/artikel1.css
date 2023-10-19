@@ -1,0 +1,145 @@
+body {
+    background: #dddcd5;
+}
+.title {
+    text-align: center;
+}
+
+.title img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+}
+
+
+.navbar {
+    background-color: #e3e2dd;
+    overflow: hidden;
+    text-align: center;
+    
+    border: 1.5px solid #333;
+    border-radius: 4px;
+    margin: 60px;
+    box-shadow: 5px 5px #d6acbe;
+    margin-top: 10px;
+
+}
+
+.nav-list {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    
+    text-decoration: none;
+    padding: 1px 20px;
+    display: inline-block;
+    color: #333;
+    text-shadow: 1px 2px #d6acbe;
+    font-size: 20px;
+    
+}
+
+.nav-list li a:hover {
+    color: #d6acbe;
+}
+
+.search-form {
+    display: inline-block; /* Make the form inline with the navigation */
+    vertical-align: middle; /* Vertically align it to the middle of the navbar */
+    
+}
+
+input[type="search"] {
+    padding: 5px;
+    border: 1.5px #333;
+    border-radius: 4px;
+    margin-top: 10px; /* Adjust the margin as needed */
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.article-container {
+    border: 1.5px solid #333;
+    border-radius: 4px;
+    box-shadow: 5px 5px #d6acbe;
+    margin-top: 40px;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 20px;
+    background: #e3e2dd;
+}
+
+.article {
+    display: flex;
+    align-items: flex-start;
+}
+
+.article-image {
+    flex: 1;
+    max-width: 600px;
+    margin: 20px;
+    
+}
+
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: 2px solid #333;
+    box-shadow: 5px 5px #d6acbe;
+    margin-top: 20px;
+}
+.image-reference {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+
+.article-content {
+    flex: 1;
+}
+
+.article-content h2 {
+    font-size: 40px;
+    text-shadow: 1px 2px #d6acbe;
+    margin-left: 20px;
+}
+
+.article-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+
+.site-footer {
+    background-color: #d6acbe;
+    margin: 60px 20px 0px 20px;
+    border: 1.5px #333;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-links a {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+
+
